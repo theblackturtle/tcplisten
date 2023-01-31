@@ -1,4 +1,5 @@
-// +build !darwin
+//go:build !darwin && !windows
+// +build !darwin,!windows
 
 package tcplisten
 
